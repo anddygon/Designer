@@ -11,7 +11,7 @@ import UIKit
 @objc (Target_Designer)
 class Target_Designer: NSObject {
     
-    func Action_designerViewController() -> UIViewController {
+    class func Action_designerViewController() -> UIViewController {
         let vc = DesignerViewController()
         return vc
     }
